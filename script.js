@@ -122,7 +122,7 @@ document.addEventListener("visibilitychange", () => {
       clear()
    } else {
      clear()
-     document.getElementById("type").innerHTML = "Carbon 27 - Order Today";
+     document.getElementById("type").innerHTML = "Race 27 - Order Today";
      show()
       // tab is active
    }
