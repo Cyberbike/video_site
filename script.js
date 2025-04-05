@@ -1,14 +1,14 @@
-document.addEventListener("DOMContentLoaded", function () {
-    let correctPasscode = "1731"; // Set your passcode here
-    let userPasscode = prompt("This website is restricted to the public. Enter the passcode to access the site:");
+// document.addEventListener("DOMContentLoaded", function () {
+//     let correctPasscode = "1731"; // Set your passcode here
+//     let userPasscode = prompt("This website is restricted to the public. Enter the passcode to access the site:");
 
-    if (userPasscode !== correctPasscode) {
-        alert("Incorrect passcode! Access denied.");
-        document.body.innerHTML = ""; // Clear the page content
-    } else {
-        alert("Access granted! Welcome.");
-    }
-});
+//     if (userPasscode !== correctPasscode) {
+//         alert("Incorrect passcode! Access denied.");
+//         document.body.innerHTML = ""; // Clear the page content
+//     } else {
+//         alert("Access granted! Welcome.");
+//     }
+// });
 
 
 
@@ -80,13 +80,13 @@ function temuQuote() {
 }
 
 
-typeWriter('27 - Only for the bold'); 
+typeWriter(''); 
 
-setTimeout(hotQuote, 6000);
+setTimeout(hotQuote, 1000);
 
-setTimeout(dieQuote, 12000);
+setTimeout(dieQuote, 9000);
 
-setTimeout(temuQuote, 24000);
+setTimeout(temuQuote, 19000);
 
 
 
